@@ -17,7 +17,7 @@ height: 200px;
     border-radius: 30px;    /* можно задавать и в процентах */
 }
 
-    
+ /* COLOR */
 .clr {
 color:red;
 background-color:black;
@@ -25,3 +25,12 @@ background-image: url('https://cdn-icons-png.flaticon.com/256/4577/4577556.png')
 opacity:0.5;  /* Значения от 0 до 1. Работет в том числе и на картнинках*/
 height: 200px;
 }
+
+ /* DIMENSIONS */
+ .dmn{
+     width: 200px;
+    height: 200px;
+    background-color: green;
+    max-height: 300px;
+    max-width:  300px;
+    }
