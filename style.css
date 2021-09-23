@@ -1,0 +1,27 @@
+.bckgr{
+/* BACKGROUND */
+    background-image: url('https://cdn-icons-png.flaticon.com/256/4577/4577556.png');
+    background-repeat: no-repeat;
+    background-color: green;
+    background-position: 50% 50%; /* позиционирование в процетнтах - по 50% - центр верт и горизонт */           
+    background-size: contain; /* Растягивает картинку по высоте. */ 
+    background-size: auto; /* высчитывает исходя из размеров картинки. */ 
+/* background: green url('https://cdn-icons-png.flaticon.com/256/4577/4577556.png') no-repeat 50% 50%;  таким  способом можно написать все в одну строку, сократив код*/
+height: 200px;
+} 
+/* BORDER */
+.bord{
+    height: 200px;
+    border-left: 10px solid red;      /*   border: 10px solid red; - или так для всего объекта  */
+    border-bottom: 5px dashed green;
+    border-radius: 30px;    /* можно задавать и в процентах */
+}
+
+    
+.clr {
+color:red;
+background-color:black;
+background-image: url('https://cdn-icons-png.flaticon.com/256/4577/4577556.png');
+opacity:0.5;  /* Значения от 0 до 1. Работет в том числе и на картнинках*/
+height: 200px;
+}
