@@ -32,5 +32,41 @@ height: 200px;
     height: 200px;
     background-color: green;
     max-height: 300px;
-    max-width:  300px;
+    max-width:  200px;
     }
+
+/* GENERATED CONTENT */
+
+.gnc {
+    background-color: orange;
+    }
+    .gnc:after {
+        content: '123' ;
+        color: red;
+    }
+    .gnc:before {
+        content: '123';
+        color: blue;
+    }
+
+     /* FONTS */
+ .fnt{
+  font-family: 'Times new roman';
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;  /* или - если в шрифте больше толщин , то можно цифрами - 100, 200 и т.д. */
+   }
+ul{
+list-style: none;  /* обнуляет точки из списка ; list-style-type: форма символов списка */ 
+list-style-image: url('https://cssreference.io/images/list-style-image.png'); 
+}
+.mp{
+    background: black;
+    overflow: hidden;
+}
+.jb{  /* У margin и у padding есть left, right, bottom, top */ 
+ border: 10px solid red;
+ padding: 40px; /* внутренние */
+ margin: 20px; /* внешние */
+ background: green;
+     }
